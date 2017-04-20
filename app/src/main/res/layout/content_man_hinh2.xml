@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.demo_learning.ManHinh2"
+    tools:showIn="@layout/activity_man_hinh2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:text="Back To Menu"
+        android:id="@+id/btnBack"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="139dp"
+        android:layout_y="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:id="@+id/btnGetData"
+        android:layout_x="153dp"
+        android:layout_y="158dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play music"
+        android:id="@+id/btnPlayMusic"
+        android:layout_x="147dp"
+        android:layout_y="288dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause Music"
+        android:id="@+id/btnPauseMusic"
+        android:layout_x="153dp"
+        android:layout_y="374dp" />
+
+</AbsoluteLayout>
